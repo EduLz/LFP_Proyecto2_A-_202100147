@@ -1,0 +1,25 @@
+
+--- CREAR BASE DE DATOS
+CrearBD temp1 = nueva CrearBD();
+
+--- ELIMINAR BASE DE DATOS
+EliminarBD temp1 = nueva EliminarBD();
+
+--- CREAR BASE DE DATOS
+CrearBD temp = nueva CrearBD();
+
+--- CREAR COLECCION DE LITERATURAS
+CrearColeccion colec = nueva CrearColeccion(“literaturas”);
+
+--- CREAR COLECCION TEMPORAL
+CrearColeccion colec = nueva CrearColeccion(“colectemp”);
+
+--- ELIMINAR COLECCION TEMPORAL
+EliminarColeccion eliminacolec = nueva EliminarColeccion(“colectemp”);
+
+--- BUSCAR TODOS LOS DATOS DE LA COLECCION
+BuscarTodo todo = nueva BuscarTodo (“literaturas”);
+
+--- BUSCAR UN DATO POR COLECCION
+BuscarUnico todo = nueva BuscarUnico (“literaturas”);
+
